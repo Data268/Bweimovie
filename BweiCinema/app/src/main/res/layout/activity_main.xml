@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fff">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/showpager">
+    </android.support.v4.view.ViewPager>
+    <RadioGroup
+        android:layout_marginBottom="@dimen/dp_15"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:orientation="horizontal"
+        android:id="@+id/showradio"
+        android:layout_alignParentBottom="true">
+        <RadioButton
+            android:layout_marginLeft="@dimen/dp_50"
+            android:id="@+id/showbt1"
+            android:checked="true"
+            android:background="@drawable/er"
+            android:layout_width="60dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            />
+        <RadioButton
+            android:layout_marginLeft="@dimen/dp_50"
+            android:layout_marginRight="@dimen/dp_50"
+            android:layout_weight="1"
+            android:id="@+id/showbt2"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/yi"
+            android:button="@null"
+            android:gravity="center" />
+        <RadioButton
+
+            android:layout_marginRight="@dimen/dp_50"
+            android:layout_weight="1"
+            android:id="@+id/showbt3"
+            android:background="@drawable/san"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            />
+    </RadioGroup>
+
+</RelativeLayout>
