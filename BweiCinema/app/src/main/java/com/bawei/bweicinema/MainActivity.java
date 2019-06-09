@@ -18,7 +18,7 @@ public class MainActivity extends BaseActivity {
     private RadioGroup showradio;
     List<Fragment> list=new ArrayList<>();
     private MainPagerAdapter adapter;
-
+    ///佀常勇
     //布局
     @Override
     protected int AiniLayout() {

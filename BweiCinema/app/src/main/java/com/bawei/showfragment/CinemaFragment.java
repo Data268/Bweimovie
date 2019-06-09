@@ -106,6 +106,7 @@ public class CinemaFragment extends BaseFragment {
             comingAdapter.clear();
             comingAdapter.add(listData);
         }
+
         @Override
         public void fild(Data data) {
 
